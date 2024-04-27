@@ -1,0 +1,20 @@
+{
+    "name": "anizen/tienda-online",
+    "description": "tienda anime",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafa Buzón Cruz",
+            "email": "rbuzcru919@g.educaand.es"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload":{
+        "psr-4": {
+            "Anizen\\":"src/"
+        }
+    }
+}
